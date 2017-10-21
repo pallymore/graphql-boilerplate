@@ -1,7 +1,7 @@
 {
-  "name": "graphql-jakarta-smartcity",
+  "name": "Graphql-Boilerplate",
   "version": "1.0.0",
-  "description": "simple express graphql boilerplate",
+  "description": "Graphql Boilerplate",
   "main": "src/index.js",
   "scripts": {
     "watch": "nodemon src/index.js --exec babel-node",
