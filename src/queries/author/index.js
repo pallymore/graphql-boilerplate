@@ -3,6 +3,7 @@ import {
   GraphQLInt,
 } from 'graphql';
 import { AuthorType } from '../../types/author';
+import { getKota } from '../../api/JakartaSmartCity';
 
 const AuthorData = {
   id: 1,
@@ -16,7 +17,7 @@ const AuthorQuery = {
   args: {
     id: { type: GraphQLInt },
   },
-  resolve: (_, args) => AuthorData,
+  resolve: (_, args) => getKota(),
 };
 
 export {
